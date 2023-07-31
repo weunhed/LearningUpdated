@@ -1,0 +1,45 @@
+section {
+    background-color: #e9edc9;
+    width: 800px;
+    height: 800px;
+}
+div {
+    background-color: #ccd5ae;
+    width: 50%;
+    height: 50%;
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+p {
+    font-size: 0.8em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font: 0.5em;
+}
+article {
+    font-size: 30px;
+}
+button {
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 20px;
+    background-color: #ccd5ae;
+}
+ul {
+    font-size: 0.5em;
+}
+#rems h2{
+    font-size: 3rem;
+}
+#rem h3{
+    font-size: 2rem;
+}
+#rem ul{
+    font-size: 2rem;
+}

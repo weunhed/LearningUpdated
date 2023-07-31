@@ -1,0 +1,49 @@
+h1 {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFFFFF;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+button {
+    color: #FFFFFF !important;
+    background-color: #000000
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+html {
+    background-color: #000000
+}
+
+p {
+    color: #FFFFFF
+}
+
+input[type="password"] {
+    color: blue;
+}
+
+a:hover {
+    color: #f2e9e4;
+}
+
+button {
+    color: black;
+    background-color: white;
+}
+
+h2::first-letter {
+    font-size: 75px;
+}
+
+::selection {
+    background-color: #fb8500       ;
+}

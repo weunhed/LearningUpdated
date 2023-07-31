@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Testang</title>
+</head>
+
+<body>
+    <h1>Form Demo</h1>
+
+
+    <form action="/takis">
+        <button type="button">Please do not submit the form</button>
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter password:</label>
+            <input type="password" placeholder="password" name="password">
+        </p>
+        <button type="button">In the middle</button>
+        <p>
+            <label for="number">Enter Code</label>
+            <input type="number" placeholder="CV code" min="1" max="125" name="number">
+        </p>
+        <p>
+            <label for="color">Enter a color</label>
+            <input type="color" name="color">
+        </p>
+
+        <h2>Hijaking The internet</h2>
+        <h3>Search Google</h3>
+
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search Youtube</button>
+    </form>
+    <h2>More inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree!</label>
+        <p>
+            <label for="Honda">Honda</label>
+            <input type="radio" name="car" id="Honda" value="Honda">
+            <label for="Porsche">Porsche</label>
+            <input type="radio" name="car" id="Porsche" value="Porsche">
+            <label for="Toyota">Toyota</label>
+            <input type="radio" name="car" id="Toyota" value="Toyota">
+        </p>
+        <p>
+            <label for="Please selecte">Meal options</label>
+            <select name="meal" id="meal">
+                <option value="dog">dog</option>
+                <option value="cat" selected>cat</option>
+                <option value="rice">rice</option>
+            </select>
+        </p>
+        <p>
+            <label for="Water">How much Water</label>
+            <input type="range" id="Water" min="1" max="100" value="50" step="2" name="Water">
+
+        </p>
+        <p>
+            <label for="Tell me your story">Tell me you story</label>
+            <textarea id="Tell me your story" name="Write here" placeholder="Write here"></textarea>
+        </p>
+
+        <button>Submit</button>
+    </form>
+    <h2>Validation Form</h2>
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first" required>
+            <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" id="username" minlenght="3" maxlenght="10"></label>
+        </p>
+        <p>
+            <input type="email" required>
+        </p>
+            <button>Submit</button>
+        </form>
+   
+
+
+
+</body>
+
+</html>
